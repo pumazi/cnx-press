@@ -12,6 +12,7 @@ def declare_routes(config):
     """Declaration of routing"""
     add_route = config.add_route
     add_route('ping', '/ping')
+    add_route('publications', '/publications')
 
 
 def configure(config):
